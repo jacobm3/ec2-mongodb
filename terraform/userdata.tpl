@@ -65,7 +65,7 @@ systemctl enable mongod
 systemctl start mongod
 systemctl status mongod
 
-# wait for mongo to start
+# wait for mongo to start and warm up
 until echo "exit;" | mongosh; do sleep 1; done
 sleep 10
 
