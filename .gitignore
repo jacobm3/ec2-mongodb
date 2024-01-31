@@ -36,8 +36,7 @@ init.json
 .init.json
 init.txt
 .init.txt
-.init.out
-init.out
+*.out
 
 *hclic
 license.txt
